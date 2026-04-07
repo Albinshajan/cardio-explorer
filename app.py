@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly.express as px  # <--- This is the missing piece!
 import google.generativeai as genai
 
 # Add render_mode="svg" to your px.line call
